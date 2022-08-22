@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=BenchNine:wght@700&family=Open+Sans+Condensed:wght@300&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  min-height: 100vh;
+  user-select: none;
+}
+:root {
+  --max-width: 1170px;
+  --ff-primary: "BenchNine", sans-serif;
+  --ff-secondary: "Open Sans Condensed", sans-serif;
+}
+.container {
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  padding: 2rem;
+}
+.person-text {
+  text-transform: uppercase;
+  font-family: var(--ff-primary);
+  font-size: 4rem;
+  line-height: 0.825;
+}
+.text-1 {
+  color: #ff6b8f;
+}
+.text-2 {
+  font-size: 5.4rem;
+  color: #ff6b8f;
+}
+.text-3 {
+  font-size: 3.3rem;
+  color: #6efafb;
+}
+.text-4 {
+  font-size: 4.4rem;
+  color: #6efafb;
+}
+.text-5 {
+  font-size: 2.5975rem;
+  color: #ff6b8f;
+}
+.text-6 {
+  color: #ff6b8f;
+}
+.text-7 {
+  font-size: 3rem;
+  color: #6efafb;
+}
+.text-8 {
+  color: #ff6b8f;
+  font-size: 3.25rem;
+}
+.text-9 {
+  color: #ff6b8f;
+  font-size: 5.25rem;
+}
+.text-10 {
+  color: #6efafb;
+  font-size: 5.35rem;
+}
+.text-11 {
+  color: #6efafb;
+  font-size: 5.075rem;
+}
+
+.boxes {
+  position: relative;
+  font-family: var(--ff-secondary);
+}
+.boxes > div {
+  position: absolute;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  color: white;
+  line-height: 1.1;
+}
+.boxes > div::after {
+  content: "";
+  position: absolute;
+}
+.box-1 {
+  background-color: #6ec3c3;
+  left: -7rem;
+  bottom: 0.2rem;
+  padding: 0.5rem 0.75rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  text-transform: uppercase;
+}
+.box-1::after {
+  bottom: 0;
+  right: -1rem;
+  border-right: 1rem solid transparent;
+  border-bottom: 1rem solid #6ec3c3;
+}
+.image {
+  width: 6rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+}
+.box-2 {
+  background-color: #6ec3c3;
+  right: -10rem;
+  bottom: 0.5rem;
+  width: 7.5rem;
+  height: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.box-2::after {
+  bottom: 0;
+  left: -1rem;
+  border-left: 1rem solid transparent;
+  border-bottom: 1rem solid #6ec3c3;
+}
+.box-3 {
+  background: linear-gradient(to bottom right, #ff9cb4, #ff2d60);
+  left: -17.75rem;
+  padding: 1rem;
+  top: 0.1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.titles {
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.15rem;
+}
+.box-3::after {
+  top: 0;
+  right: -1rem;
+  border-top: 1rem solid #f56186;
+  border-right: 1rem solid transparent;
+}
+.random-text {
+  font-size: 0.875rem;
+  margin: 0.25rem 0;
+}
+.box-4 {
+  background: linear-gradient(to bottom right, #ff9cb4, #ff2d60);
+  padding: 1rem;
+  right: -16.75rem;
+  top: 0rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.box-4::after {
+  top: 0;
+  left: -1rem;
+  border-top: 1rem solid #ff9cb4;
+  border-left: 1rem solid transparent;
+}
+.box-5 {
+  background-color: #6ec3c3;
+  padding: 1rem;
+  width: 300px;
+  left: -21.5rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.marks {
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.box-5 article:last-child {
+  margin-top: 1rem;
+}
+.cgpa {
+  text-transform: uppercase;
+}
+.box-5::after {
+  top: 0;
+  right: -1rem;
+  border-top: 1rem solid #6ec3c3;
+  border-right: 1rem solid transparent;
+}
+
+.box-6 {
+  background-color: #6ec3c3;
+  padding: 1rem;
+  right: -15rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.box-6::after {
+  top: 0;
+  left: -1rem;
+  border-top: 1rem solid #6ec3c3;
+  border-left: 1rem solid transparent;
+}
+.box-7 {
+  background: linear-gradient(to bottom right, #ff9cb4, #ff2d60);
+  padding: 1rem;
+  right: -23rem;
+  top: 0.2rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.box-7::after {
+  top: 0;
+  left: -1rem;
+  border-top: 1rem solid #ff9cb4;
+  border-left: 1rem solid transparent;
+}
